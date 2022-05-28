@@ -28,6 +28,9 @@ public class Student {
 
     }
 
+
+
+
     public Student(Long id,
             String name,
             String email,
@@ -65,7 +68,7 @@ public class Student {
         this.name = name;
     }
 
-    public String geEmail() {
+    public String getEmail() {
         return email;
     }
 
